@@ -1,5 +1,6 @@
 #include "Logic.h"
-
+#include <iostream>
+using namespace std;
 
 float Logic::Sum()
 {
@@ -21,7 +22,7 @@ float Logic::Division()
 	return variable_1 / variable_2;
 }
 
-float Logic::Print()
+void Logic::Print()
 {
-	return variable_1;
+	cout << variable_1 << variable_2;
 }

@@ -20,7 +20,7 @@ public:
 	float Subtraction();
 	float Multiplication();
 	float Division();
-	float Print();
+	void Print();
 
 };
 

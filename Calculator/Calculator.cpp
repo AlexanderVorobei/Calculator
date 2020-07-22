@@ -1,8 +1,10 @@
 #include <iostream>
+#include <string>
 
 #include "Circle.h"
 #include "Rectangle.h"
 #include "Square.h"
+#include "Logic.h"
 
 
 using namespace std;
@@ -22,6 +24,17 @@ int main()
 	Circle c(13);
 	Rectangle r(3, 5);
 	Square s(7);
+	Logic d(2.0, 4.0);
+
+
+	cout << "Переменные: " << d.Print() << endl;
+	cout << "Сумма: "<< d.Sum() << endl;
+	cout << "Разница: " << d.Subtraction() << endl;
+	cout << "Умножение: " << d.Multiplication() << endl;
+	cout << "Деление: " << d.Division() << endl;
+	cout << endl;
+
+
 
 	cout << "Circle: " << endl;
 	cout << "Area: "<< c.Area() << endl;

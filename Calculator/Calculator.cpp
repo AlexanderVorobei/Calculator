@@ -1,4 +1,10 @@
 #include <iostream>
+
+#include "Circle.h"
+#include "Rectangle.h"
+#include "Square.h"
+
+
 using namespace std;
 
 

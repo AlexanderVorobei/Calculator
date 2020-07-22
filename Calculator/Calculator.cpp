@@ -17,12 +17,19 @@ using namespace std;
 int main()
 {
  	setlocale(LC_ALL, "ru");
+	float variable_1, variable_2;
+	cout << "Калькулятор!" << endl;
+	cout << "Введите первое значение переменной: ";
+	cin >> variable_1;
+	cout << endl << "Введите второе значение переменной: ";
+	cin >> variable_2;
+	cout << endl;
 
 	
-	Logic d(2.0, 4.0);
+	Logic d(variable_1, variable_2);
+	
+	d.Print();
 
-	cout << "Калькулятор!" << endl;
-	cout << "Переменные: "<< d.Print() << endl;
 	cout << "Сумма: "<< d.Sum() << endl;
 	cout << "Разница: " << d.Subtraction() << endl;
 	cout << "Умножение: " << d.Multiplication() << endl;

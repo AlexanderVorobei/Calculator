@@ -24,5 +24,6 @@ float Logic::Division()
 
 void Logic::Print()
 {
-	cout << variable_1 << variable_2;
+	cout << "Переменные: " << variable_1 << " , " << variable_2;
+	cout << endl;
 }

@@ -1,29 +1,19 @@
 #include "Logic.h"
-#include <iostream>
-using namespace std;
 
-float Logic::Sum()
+double Logic::Calculate(double x, char operand, double y)
 {
-	return variable_1 + variable_2;
-}
 
-float Logic::Subtraction()
-{
-	return variable_1 - variable_2;
-}
-
-float Logic::Multiplication()
-{
-	return variable_1 * variable_2;
-}
-
-float Logic::Division()
-{
-	return variable_1 / variable_2;
-}
-
-void Logic::Print()
-{
-	cout << "Переменные: " << variable_1 << " , " << variable_2;
-	cout << endl;
+	switch (operand)
+	{
+		case '+':
+			return x + y;
+		case '-':
+			return x - y;
+		case '*':
+			return x * y;
+		case '/':
+			return x / y;
+		default:
+			return 0.0;
+	}
 }

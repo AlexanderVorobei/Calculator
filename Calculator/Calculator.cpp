@@ -7,7 +7,7 @@ int main()
 {
 	double a, b;
 	char oper;
-	cout << "Hello! Please insert math operation: (a+b) " << endl;
+	cout << "Hello!!! Please insert math operation: (a+b) " << endl;
 	cin >> a >> oper >> b;
 	cout << a << oper << b << "=";
 	Logic calculator(a, b, oper);

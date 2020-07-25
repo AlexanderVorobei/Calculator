@@ -12,4 +12,6 @@ int main()
 	cout << a << oper << b << "=";
 	Logic calculator(a, b, oper);
 	calculator.calculator(a, b, oper);
+
+	return 0;
 }
